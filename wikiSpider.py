@@ -47,8 +47,8 @@ for year_url in year_urls:
                 if len(year_tree.xpath('//*[@id="mw-content-text"]/div[2]/ol/li[%s]/a/text()' % str(i))) == 0:
                     f_nameslist = f_nameslist + year_tree.xpath('//*[@id="mw-content-text"]/div[2]/ol/li[%s]/text()' % str(i))
             fellow_names_tmp = fellow_names_tmp + f_nameslist
-                
-                
+
+
 
 
             if len(year_tree.xpath('//*[@id="mw-content-text"]/ul/li/a/text()')) == 0:
@@ -78,7 +78,7 @@ for year_url in year_urls:
 year_name_json = json.dumps(year_names)
 f = file("year_name.json", "wb")
 f.write(year_name_json)
-f.close()        
+f.close()
 
 print len(fellow_names)
 
@@ -123,7 +123,7 @@ for i, year_name in enumerate(year_names):
                         year_names[i]['citation'] = None
                         fail_fellow_names.append(fellow_name)
                         print "search fail:", fellow_name, tmp_url
-                    
+
                     break
                 except:
                     fail_count = fail_count + 1
@@ -147,7 +147,7 @@ print len(fail_fellow_names)
 
 f = file("name_index.json", "wb")
 f.write(json.dumps(year_names))
-f.close()            
+f.close()
 
 f = file("fail_name.json", "wb")
 f.write(json.dumps(fail_fellow_names))
@@ -158,13 +158,3 @@ resfile = file('result.csv', 'wb')
 writer = csv.writer(resfile)
 writer.writerows(name_index_dict)
 resfile.close()
-
-
-
-
-
-
-
-
-
-
