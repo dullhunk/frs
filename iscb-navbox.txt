@@ -1,0 +1,126 @@
+
+Well past the stage of pretending to be buddies
+
+{{Navbox
+|name = ISCB Fellows
+|title = [[ISCB Fellow|Fellows]] of the [[International Society for Computational Biology]] by [[List of Fellows of the International Society for Computational Biology|year of election]]
+|state = {{{state|autocollapse}}}
+|titlestyle = {{Anglican navbox titlestyle|fellow}}
+|listclass = hlist
+|group1=2009
+|list1=
+* [[David Haussler]]
+* [[David Lipman]]
+* [[Webb Miller]]
+* [[David Sankoff]]
+* [[Temple F. Smith|Temple Smith]]
+* [[Janet Thornton]]
+* [[Michael Waterman]]
+
+|group2=2010
+|list2=
+* [[Russ Altman]]
+* [[Lawrence Hunter]]
+* [[Eugene Myers]]
+* [[Chris Sander (scientist)|Chris Sander]]
+* [[Gary Stormo]]
+* [[Alfonso Valencia]]
+
+|group3=2011
+|list3=
+
+* [[Michael Ashburner]]
+* [[Philip Bourne|Phil Bourne]]
+* [[Søren Brunak]]
+* [[Richard M. Durbin|Richard Durbin]]
+
+|group4=2012
+|list4=
+
+* [[Bonnie Berger]]
+* [[Peter Karp]]
+* [[Jill Mesirov]]
+* [[Pavel A. Pevzner|Pavel Pevzner]]
+* [[Ron Shamir]]
+* [[Martin Vingron]]
+* [[Gunnar von Heijne]]
+
+|group5=2013
+|list5=
+
+* [[Pierre Baldi]]
+* [[David Eisenberg]]
+* [[d:Q29053200|Minoru Kanehisa]]
+* [[d:Q11455319|Satoru Miyano]]
+* [[Ruth Nussinov]]
+* [[Steven Salzberg]]
+
+|group6=2014
+|list6=
+
+* [[Amos Bairoch]]
+* [[Ewan Birney]]
+* [[Nir Friedman]]
+* [[Robert Gentleman (statistician)|Robert Gentleman]]
+* [[Andrej Sali]]
+
+|group7=2015
+|list7=
+
+* [[Rolf Apweiler]]
+* [[Cyrus Chothia]]
+* [[Julio Collado-Vides]]
+* [[Mark Bender Gerstein|Mark Gerstein]]
+* [[Desmond G. Higgins|Des Higgins]]
+* [[Thomas Lengauer]]
+* [[Michael Levitt]]
+* [[Burkhard Rost]]
+
+|group8=2016
+|list8=
+
+* [[Helen M. Berman]]
+* [[Steven E. Brenner|Steven Brenner]]
+* [[d:Q23823587|Dan Gusfield]]
+* [[d:Q23823580|Barry Honig]]
+* [[Janet Kelso]]
+* [[d:Q23823595|Michal Linial]]
+* [[Christine Orengo]]
+* [[Aviv Regev]]
+* [[Lincoln Stein]]
+* [[Sarah Teichmann]]
+* [[Anna Tramontano]]
+* [[Shoshana Wodak]]
+* [[d:Q23823640|Haim Wolfson]]
+
+|group9=2017
+|list9=
+
+* [[Alex Bateman]]
+* [[d:Q29053203|Andrea Califano]]
+* [[Daphne Koller]]
+* [[Anders Krogh]]
+* [[d:Q29053213|William Noble]]
+* [[Lior Pachter]]
+* [[Olga Troyanskaya]]
+* [[Tandy Warnow]]
+}}<noinclude>
+{{collapsible option}}
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "This template displays a navigation box containing links to articles about Fellows of the International Society for Computational Biology (ISCB).",
+	"params": {
+		"state": {
+			"description": "This parameter may be used to set the template's initial visibility: if \"collapsed\" the content is hidden and only the title bar is visible (with [show] link), if \"expanded\" the content and title bar are fully visible (with [hide] link), and if \"autocollapse\" the template is collapsed when the page contains other collapsible items.",
+			"default": "autocollapse",
+			"example": "expanded",
+			"type": "string",
+			"required": false
+ 		}
+	},
+	"format": "inline"
+}
+</templatedata>
+</noinclude>
