@@ -1,0 +1,21 @@
+SELECT ?person ?personLabel ?id ?member
+WHERE
+{
+  #subject predicate object
+  ?person wdt:P463 ?member; #person memberof
+  wdt:P31 wd:Q5.             #instanceof human (this is not a triple?)
+
+  ?member wdt:P279* wd:Q123885; #member (any)subclassof royalsociety
+
+  ?id wikibase:propertyType wikibase:ExternalId ; #id ispropertypetype externalid
+  ?id wdt:P31 wd:P1153 .                           #id instanceof scopusid
+
+  #?id wdt:P279* wd:Q19595382; #id subclassof (wikidata property for authority control for people);
+  #?id     wdt:P279* wdt:P1153; #id subclassof ScopusAuthorID
+
+
+  SERVICE wikibase:label {bd:serviceParam wikibase:language "en, fr, sp"}
+
+}
+
+# Make a list of the most used authority control properties for works for paintings
