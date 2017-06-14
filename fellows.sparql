@@ -1,13 +1,15 @@
 SELECT ?person ?personLabel ?member ?memberlabel
 WHERE
 {
-  ?person wdt:P463 ?member;
-  wdt:P31 wd:Q5. #shorthand for ?person wdt:P31 wd:Q5
+  ?person wdt:P463 ?member .
+  ?person wdt:P31 wd:Q5 . #shorthand for ?person wdt:P31 wd:Q5
 
 
+  ?member wdt:P279* wd:Q123885 .
 
-  ?member wdt:P279* wd:Q123885;
+  ?id wdt:P31 wd:P1153;
 
   SERVICE wikibase:label {bd:serviceParam wikibase:language "en, fr, sp"}
 
 }
+LIMIT 10
