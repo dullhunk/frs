@@ -1,4 +1,4 @@
-SELECT ?person ?personLabel ?member ?memberlabel
+SELECT ?person ?personLabel ?id #?member ?memberlabel
 WHERE
 {
   ?person wdt:P463 ?member .

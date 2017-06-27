@@ -1,0 +1,17 @@
+# using QuickStatements to write to Wikidata
+# authorize Widar first
+# https://tools.wmflabs.org/widar/index.php?action=authorize
+
+# Qxx Pxx value qualifier_Pxx value source_Sxx value for example
+# Julia King (Q49031) member_of (P463) Royal Society (Q123885) point_in_time (P585) 2017 (+2017-01-01T00:00:00Z/9 means precision of one year)
+
+
+# Need
+CREATE
+# if no member_of statement already exists
+# has to be tab not space, so careful which text editor you open this file in 
+
+Q49031	P463	Q123885	P585	+2017-01-01T00:00:00Z/9
+Q22277015	P463	Q123885	P585	+2017-01-01T00:00:00Z/9
+Q5111954	P463	Q123885	P585	+2017-01-01T00:00:00Z/9
+

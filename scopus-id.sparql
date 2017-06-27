@@ -1,6 +1,7 @@
-SELECT ?person ?personLabel ?id ?member
+SELECT ?person ?personLabel ?id ?member #variables
 WHERE
 {
+  #difference between dot and colon
   #subject predicate object
   ?person wdt:P463 ?member; #person memberof
   wdt:P31 wd:Q5.             #instanceof human (this is not a triple?)
@@ -13,6 +14,7 @@ WHERE
   #?id wdt:P279* wd:Q19595382; #id subclassof (wikidata property for authority control for people);
   #?id     wdt:P279* wdt:P1153; #id subclassof ScopusAuthorID
 
+  #NOT EXISTS might be useful
 
   SERVICE wikibase:label {bd:serviceParam wikibase:language "en, fr, sp"}
 
