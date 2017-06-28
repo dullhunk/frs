@@ -1,0 +1,15 @@
+SELECT ?person ?personLabel  ?dob
+WHERE
+{
+ ?person wdt:P166 wdt:Q15631401;              # person is a fellow of the royal society
+
+
+
+         OPTIONAL { ?person wdt:P569 ?dob .}
+
+         SERVICE wikibase:label {               # ... include the labels
+             bd:serviceParam wikibase:language "en"
+         }
+         FILTER (?dob >= "1970-00-00T00:00:00Z"^^xsd:dateTime) # show young fellows, those born after 1970
+}
+ORDER BY DESC(?dob)

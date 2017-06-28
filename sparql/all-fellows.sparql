@@ -1,16 +1,19 @@
-SELECT ?person ?electedin  ?dob
+SELECT ?personLabel ?person ?electedIn  ?dob
 WHERE
 {
  ?person wdt:P463 ?member;              # person is a member of ?member
          wdt:P31 wd:Q5.                 # person is instance of human
-         ?member wdt:P279* wd:Q123885   # member anySubclassOf Royal Society
+         ?member wdt:P279* wd:Q123885 .   # member anySubclassOf Royal Society
+         #pq:585 ?electedIn;  #this doesn not  work
 
-         OPTIONAL { ?electedin pq:P585 ?member. }      # not displaying?
-         OPTIONAL { ?person wdt:P569 ?dob .}
+         OPTIONAL { ?electedIn pq:P585 ?member. }      # not displaying what is expected, even when pq:P585*
+         OPTIONAL { ?person wdt:P569 ?dob .}        # may help to visualise data first https://angryloki.github.io/wikidata-graph-builder/
 
-         SERVICE wikibase:label {               # ... include the labels (but currently blank)
-             bd:serviceParam wikibase:language "en"
+         SERVICE wikibase:label {               # ... include the labels
+             bd:serviceParam wikibase:language "en,fr,es"
          }
          FILTER (?dob >= "1970-00-00T00:00:00Z"^^xsd:dateTime) # show young fellows, those born after 1970
+
 }
 ORDER BY DESC(?dob)
+LIMIT 50
