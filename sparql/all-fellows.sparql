@@ -1,9 +1,16 @@
-SELECT ?person  ?member
+SELECT ?person ?electedin  ?dob
 WHERE
 {
- ?person wdt:P463 ?member; #person is a menber of
-         wdt:P31 wd:Q5. #person is instance of human
-         ?member wdt:P279* wd:Q123885
+ ?person wdt:P463 ?member;              # person is a member of ?member
+         wdt:P31 wd:Q5.                 # person is instance of human
+         ?member wdt:P279* wd:Q123885   # member anySubclassOf Royal Society
 
-	SERVICE wikibase:label { bd:serviceParam wikibase:language "en，fr,sp" }
+         OPTIONAL { ?electedin pq:P585 ?member. }      # not displaying?
+         OPTIONAL { ?person wdt:P569 ?dob .}
+
+         SERVICE wikibase:label {               # ... include the labels (but currently blank)
+             bd:serviceParam wikibase:language "en"
+         }
+         FILTER (?dob >= "1970-00-00T00:00:00Z"^^xsd:dateTime) # show young fellows, those born after 1970
 }
+ORDER BY DESC(?dob)
