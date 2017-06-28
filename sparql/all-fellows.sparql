@@ -1,0 +1,9 @@
+SELECT ?person  ?member
+WHERE
+{
+ ?person wdt:P463 ?member; #person is a menber of
+         wdt:P31 wd:Q5. #person is instance of human
+         ?member wdt:P279* wd:Q123885
+
+	SERVICE wikibase:label { bd:serviceParam wikibase:language "en，fr,sp" }
+}
