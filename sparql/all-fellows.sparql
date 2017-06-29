@@ -4,7 +4,7 @@ WHERE
  ?person wdt:P463 ?member;              # person is a member of ?member
          wdt:P31 wd:Q5.                 # person is instance of human
          ?member wdt:P279* wd:Q123885 .   # member anySubclassOf Royal Society
-         #pq:585 ?electedIn;  #this doesn not  work
+         #pq:585 ?electedIn;  #this does not  work
 
          OPTIONAL { ?electedIn pq:P585 ?member. }      # not displaying what is expected, even when pq:P585*
          OPTIONAL { ?person wdt:P569 ?dob .}        # may help to visualise data first https://angryloki.github.io/wikidata-graph-builder/
