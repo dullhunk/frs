@@ -1,8 +1,8 @@
-SELECT ?person  ?member  ?scopus
+SELECT ?person  ?personLabel  ?scopus
 WHERE
 {
  ?person wdt:P1153 ?scopus ; #person had scopusauthorid
-         wdt:P463 ?member; #person is a menber of
+         wdt:P463 ?member; #person is a member of
          wdt:P31 wd:Q5. #person is instance of human
          ?member wdt:P279* wd:Q123885
 

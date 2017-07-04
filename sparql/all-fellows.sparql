@@ -7,7 +7,7 @@ WHERE
          #pq:585 ?electedIn;  #this does not  work
 
          OPTIONAL { ?electedIn pq:P585 ?member. }      # not displaying what is expected, even when pq:P585*
-         OPTIONAL { ?person wdt:P569 ?dob .}        # may help to visualise data first https://angryloki.github.io/wikidata-graph-builder/
+         OPTIONAL { ?person wdt:P569 ?dob .}
 
          SERVICE wikibase:label {               # ... include the labels
              bd:serviceParam wikibase:language "en,fr,es"
@@ -17,3 +17,9 @@ WHERE
 }
 ORDER BY DESC(?dob)
 LIMIT 50
+
+# may help to visualise data first
+# https://angryloki.github.io/wikidata-graph-builder/ or
+# https://tools.wmflabs.org/sqid/#/view?id=Q21254312 or
+# https://tools.wmflabs.org/reasonator/?q=Q21254312
+# or create WQS convert to SPARQL
