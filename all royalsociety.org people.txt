@@ -1,3 +1,7 @@
+# This page lists all living fellows of the royal society 
+# (FRS, ForMemRS and HonFRS)
+# urls are taken from https://royalsociety.org/fellows/fellows-directory/
+
 https://royalsociety.org/people/mark-achtman-10964
 https://royalsociety.org/people/ali-alavi-10976
 https://royalsociety.org/people/zdenek-ba%C5%BEant-11020
