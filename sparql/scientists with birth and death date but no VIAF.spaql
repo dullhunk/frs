@@ -1,0 +1,5 @@
+SELECT ?q ?qLabel {
+  ?q wdt:P31 wd:Q5 ; wdt:P569 [] ; wdt:P570 [] ; wdt:P106|wdt:P279* wd:Q901.
+  MINUS { ?q wdt:P214 [] }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
