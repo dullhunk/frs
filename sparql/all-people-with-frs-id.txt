@@ -1,0 +1,11 @@
+SELECT ?personLabel ?person ?frsid
+WHERE
+{?person wdt:P2070 ?frsid;            # person has frs id
+         wdt:P31 wd:Q5.                 # person is instance of human
+
+
+         SERVICE wikibase:label {               # ... include the labels
+             bd:serviceParam wikibase:language "en,fr,es"
+         }
+
+}

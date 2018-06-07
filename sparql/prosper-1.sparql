@@ -1,0 +1,20 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?person ?personLabel ?electedIn ?dateofbirth ?fieldofworkLabel ?scopus ?memberLabel WHERE {
+  ?person wdt:P463 ?member.
+  ?person wdt:P31 wd:Q5.
+  ?member wdt:P279* wd:Q123885.
+  ?person wdt:P101 ?fieldofwork. # query to extract the field of work
+  OPTIONAL { ?person wdt:P569 ?dateofbirth. } # query to extract the date of birth
+  OPTIONAL { ?person wdt:P1153 ?scopus. } # query to extract the Scopus ID
+
+  # queries to extract the time when a fellow was elected
+  ?person p:P463 ?electedAs.
+  ?electedAs ps:P463 wd:Q123885.
+  OPTIONAL {?electedAs pq:P580 ?electedIn.}
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,es". }
+  FILTER(?dateofbirth >= "1660-00-00T00:00:00Z"^^xsd:dateTime)
+}
+
+ORDER BY DESC(?electedIn)
