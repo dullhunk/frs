@@ -1,0 +1,7 @@
+SELECT ?FRS_ID ?wikidata_ID ?linkcount ?gender WHERE {
+  ?wikidata_ID wdt:P31 wd:Q5.
+  ?wikidata_ID wdt:P2070 ?FRS_ID.
+  ?wikidata_ID wikibase:sitelinks ?linkcount.
+  ?wikidata_ID wdt:P21 ?gender.
+  }
+ORDER BY DESC(?linkcount)

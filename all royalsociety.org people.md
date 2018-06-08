@@ -1791,7 +1791,8 @@ https://royalsociety.org/people/elon-musk-13829/
 https://royalsociety.org/people/harren-jhoti-13821/  
 
 
-===SPARQL query that generates====
+===SPARQL query that generates a similar list to the above====  
+
 Cut and paste into https://query.wikidata.org  
 
 SELECT ?personLabel ?person ?frsid
