@@ -1,12 +1,12 @@
-# This page lists all living fellows of the royal society 
-# (FRS, ForMemRS and HonFRS)
-# urls are taken from https://royalsociety.org/fellows/fellows-directory/
+This page lists all living fellows of the royal society  (FRS, ForMemRS and HonFRS)
+urls are taken from https://royalsociety.org/fellows/fellows-directory/
+or can be retrieved from wikidata using a SPARQL query
 
-https://royalsociety.org/people/mark-achtman-10964
-https://royalsociety.org/people/ali-alavi-10976
-https://royalsociety.org/people/zdenek-ba%C5%BEant-11020
-https://royalsociety.org/people/alain-aspect-11012
-https://royalsociety.org/people/allan-balmain-11032
+https://royalsociety.org/people/mark-achtman-10964/  
+https://royalsociety.org/people/ali-alavi-10976/  
+https://royalsociety.org/people/zdenek-ba%C5%BEant-11020  
+https://royalsociety.org/people/alain-aspect-11012  
+https://royalsociety.org/people/allan-balmain-11032  
 https://royalsociety.org/people/kamal-bawa-11057
 https://royalsociety.org/people/steve-brown-11152
 https://royalsociety.org/people/linda-buck-11160
