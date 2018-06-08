@@ -1,6 +1,6 @@
 This page lists all living fellows of the royal society  (FRS, ForMemRS and HonFRS)  
 urls are taken from https://royalsociety.org/fellows/fellows-directory/  
-or can be retrieved from wikidata using a SPARQL query  
+or can be retrieved from wikidata using a SPARQL query at the bottom of this file
 
 https://royalsociety.org/people/mark-achtman-10964    
 https://royalsociety.org/people/ali-alavi-10976    
@@ -1789,3 +1789,19 @@ https://royalsociety.org/people/adi-shamir-13842/
 https://royalsociety.org/people/joachim-sauer-13840/  
 https://royalsociety.org/people/elon-musk-13829/  
 https://royalsociety.org/people/harren-jhoti-13821/  
+
+
+===SPARQL query that generates====
+Cut and paste into https://query.wikidata.org  
+
+SELECT ?personLabel ?person ?frsid
+WHERE
+{?person wdt:P2070 ?frsid;            # person has frs id
+         wdt:P31 wd:Q5.                 # person is instance of human
+
+
+         SERVICE wikibase:label {               # ... include the labels
+             bd:serviceParam wikibase:language "en,fr,es"
+         }
+
+}
