@@ -1,0 +1,6 @@
+SELECT (COUNT(DISTINCT ?item) AS ?count)
+WHERE
+{
+	?item wdt:P2070 ?FRS_ID.
+
+}

@@ -1,0 +1,20 @@
+SELECT ?article ?linkcount ?genderLabel
+WHERE
+{
+         ?person wdt:P31 wd:Q5. #person is instance of human
+         ?person wdt:P463 ?org. #person is a member of an org
+         ?person wikibase:sitelinks ?linkcount. #count sitelinks for person
+         ?person wdt:P21 ?gender.
+
+         ?org wdt:P279* wd:Q123885. #org any subclass of royalsociety
+
+         ?article schema:about ?person . #person has article
+         ?article schema:isPartOf <https://en.wikipedia.org/>. #article partOf wikipedia
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+
+
+
+}
+ORDER BY DESC(?linkcount)
+LIMIT 100
