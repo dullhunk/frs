@@ -1,0 +1,25 @@
+SELECT  ?wikidata_ID ?article ?scopus ?yearOfElection
+WHERE
+{
+         ?wikidata_ID wdt:P31 wd:Q5. #person is instance of human
+         ?wikidata_ID wdt:P463 ?org. #person is a member of an org
+         ?org wdt:P279* wd:Q123885. #org any subclass of royalsociety
+         ?wikidata_ID wdt:P166 wd:Q15631401. #person awarded FRS
+
+        #    ?award wdt:P585 ?time . (times out query!)    # the "point of time" of the Academy Award 
+
+         OPTIONAL { wd:Q15631401 wdt:P585 ?yearOfElection. } #frs awarded at point in time
+
+         ?wikidata_ID wdt:P1153 ?scopus. #person has scopus
+         ?article schema:about ?wikidata_ID . #person has article
+         ?article schema:isPartOf <https://en.wikipedia.org/>. #article partOf wikipedia
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+
+
+
+}
+
+
+
+# See academy award winners example at http://tinyurl.com/y83smrbg but exclude "is subject of" property

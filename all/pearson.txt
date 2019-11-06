@@ -1,0 +1,26 @@
+
+pearson is Professor, Biochemistry and Molecular Genetics at the University of Virginia School of Medicine
+
+
+known_for = [[FASTA]]<ref name=Pearson1990>{{cite journal|last1=Pearson|first1=William R.|title=[5] Rapid and sensitive sequence comparison with FASTP and FASTA|volume=183|year=1990|pages=63–98|issn=00766879|doi=10.1016/0076-6879(90)83007-V}}</ref>
+<ref>pubmed.gov/3162770</ref><ref name=LipmanPearson1985>{{cite journal|last1=Lipman|first1=D.|last2=Pearson|first2=W.|title=Rapid and sensitive protein similarity searches|journal=Science|volume=227|issue=4693|year=1985|pages=1435–1441|issn=0036-8075|doi=10.1126/science.2983426}}</ref>
+
+
+https://orcid.org/0000-0002-0727-3680
+http://id.loc.gov/authorities/names/no97025485.html
+https://www.scopus.com/authid/detail.uri?authorId=7102010567
+https://scholar.google.co.uk/citations?user=UxQKRr8AAAAJ
+
+no wikidata AFAICS
+
+Bill is the inventor of FASTA  and I particularly want to draw attention to two of his seminal papers:
+
+
+
+1)  Rapid and sensitive protein similarity searches.. Lipman DJ, Pearson WR. Science. 1985 Mar 22;227(4693):1435-41. (cited 3320 times)
+
+2)  Improved tools for biological sequence comparison. Pearson WR, Lipman DJ.  Proc Natl Acad Sci U S A. 1988 Apr;85(8):2444-8. (cited 9775 times)
+
+https://med.virginia.edu/faculty/faculty-listing/wrp/
+
+http://www.people.virginia.edu/~wrp/

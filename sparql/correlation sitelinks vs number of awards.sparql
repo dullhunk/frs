@@ -1,0 +1,10 @@
+SELECT ?wikidata_ID ?FRS_ID ?linkcount (COUNT(?award_received) AS ?total_awards)
+WHERE
+{
+  ?wikidata_ID wdt:P31 wd:Q5.
+  ?wikidata_ID wdt:P2070 ?FRS_ID.
+  ?wikidata_ID wikibase:sitelinks ?linkcount .
+  OPTIONAL{?wikidata_ID wdt:P166 ?award_received.}
+}
+GROUP BY ?FRS_ID ?linkcount ?wikidata_ID ?total_awards
+ORDER BY DESC(?linkcount)

@@ -1,0 +1,49 @@
+{{Infobox scientist
+| name              = Mona Singh
+| image             =
+| image_size        =
+| image_upright     =
+| alt               =
+| caption           =
+| birth_name        = Mona Singh
+| birth_date        = <!--{{birth date |YYYY|MM|DD}}-->
+| birth_place       =
+| fields            =
+| workplaces        = [[University of California, San Diego]]
+| patrons           =
+| education         =
+| alma_mater        = [[Harvard University]] (AB)<br>[[MIT]] (PhD)
+| thesis_title      = Learning algorithms with applications to robot navigation and protein folding
+| thesis_url        =  http://hdl.handle.net/1721.1/40579
+| thesis_year       = 1996
+| doctoral_advisor  = [[Ron Rivest]]<br>[[Bonnie Berger]]<ref name=monaphd>{{cite thesis |degree=PhD |first=Mona|last=Singh |title=Learning algorithms with applications to robot navigation and protein folding |publisher=Massachusetts Institute of Technology |date=1996 |url=https://dspace.mit.edu/handle/1721.1/40579 |website=dspace.mit.edu |oclc=680493381  |hdl=1721.1/40579}}</ref>
+| academic_advisors =
+| doctoral_students =
+| notable_students  =
+| known_for         =
+| influences        =
+| influenced        =
+| awards            = [[ISCB Fellow]] (2018)<ref name=iscb/>
+| spouse            = <!--(or | spouses = )-->
+| partner           = <!--(or | partners = )-->
+| children          =
+| signature         = <!--(filename only)-->
+| signature_alt     =
+| website           = {{URL|https://www.cs.princeton.edu/~mona}}
+| footnotes         =
+}}
+
+‘’’Mona Singh’’’ is a [[Professor]] of [[Computer Science]] in the Lewis-Sigler Institute for Integrative [[Genomics]] at [[Princeton University]].<ref>https://www.cs.princeton.edu/~mona</ref> Singh was elected a [[Fellow]] of the 
+[[International Society for Computational Biology]] (ISCB) in 2018.<ref name=iscb>{{cite web|url=https://www.iscb.org/iscb-fellows|title=ISCB Fellows|website=www.iscb.org}}</ref>
+
+==References==
+{{reflist}}
+
+{{ISCB Fellows}}
+
+{{Authority control}}
+
+
+{{DEFAULTSORT:Singh, Mona}}
+[[Category:Living people]]
+[[Category:Bioinformaticians]]
