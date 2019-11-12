@@ -30,7 +30,7 @@
 | children          =
 | website           =
 }}
-'''fred''' {{post-nominals|country=GBR|FRS}}<ref name=frs>{{cite web|archiveurl=|archivedate=|url=|website=royalsociety.org|publisher=[[Royal Society]]|location=London|author=Anon|year=2019|title=who is this?}} One or more of the preceding sentences incorporates text from the royalsociety.org website where: {{quote|“All text published under the heading 'Biography' on Fellow profile pages is available under [[Creative Commons license|Creative Commons Attribution 4.0 International License]].” --{{Webarchive|url=http://web.archive.org/web/20161111170346/https://royalsociety.org/about-us/terms-conditions-policies/|title=Royal Society Terms, conditions and policies|date=2016-11-11}}}}</ref><ref name=epmc>{{EuropePMC|ORCID=0000-0002-1484-340X}}</ref><ref name="Berriman2005">{{cite journal|last1=Berriman|first1=M.|title=The Genome of the African Trypanosome Trypanosoma brucei|journal=Science|volume=309|issue=5733|year=2005|pages=416–422|issn=0036-8075|doi=10.1126/science.1112642|pmid= 16020726}}</ref>
+'''fred''' {{post-nominals|country=GBR|FRS}}<ref name=frs>{{cite web|archiveurl=|archivedate=|url=|website=royalsociety.org|publisher=[[Royal Society]]|location=London|author=Anon|year=2019|title=who is this?}} One or more of the preceding sentences incorporates text from the royalsociety.org website where: {{quote|“All text published under the heading 'Biography' on Fellow profile pages is available under [[Creative Commons license|Creative Commons Attribution 4.0 International License]].” --{{Webarchive|url=http://web.archive.org/web/20161111170346/https://royalsociety.org/about-us/terms-conditions-policies/|title=Royal Society Terms, conditions and policies|date=2016-11-11}}}}</ref><ref name=epmc>{{EuropePMC|ORCID=0000-0002-1484-340X}}</ref>
 
 ==Education==
 was educated at where he was awarded a [[PhD]] on the
@@ -39,7 +39,7 @@ was educated at where he was awarded a [[PhD]] on the
 stuff
 
 ===Awards and honours===
-He was elected a [[Fellow of the Royal Society]] in 2019 for "substantial contribution to the improvement of natural knowledge".<ref name=elections>{{cite web|archiveurl=https://web.archive.org/web/20150906183433/https://royalsociety.org/fellows/elections/ |archivedate=2015-09-06|url=https://royalsociety.org/fellows/elections/ |publisher=Royal Society|location=London|title=Royal Society Elections|author=Anon|year=2015}}</ref>
+He was elected a [[Fellow of the Royal Society]] (FRS) in 2019 for "substantial contributions to the improvement of natural knowledge".<ref name=elections>{{cite web|archiveurl=https://web.archive.org/web/20150906183433/https://royalsociety.org/fellows/elections/ |archivedate=2015-09-06|url=https://royalsociety.org/fellows/elections/ |publisher=Royal Society|location=London|title=Royal Society Elections|author=Anon|year=2015}}</ref>
 
 ==References==
 {{reflist}}
